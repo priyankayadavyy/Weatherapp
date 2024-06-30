@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link rel="stylesheet" href="ewather.css" />
+  </head>
+  <body onload="getData()">
+    <div class="box">
+      <input type="text" id="search" value="allahabad" onchange="getData()" />
+      <div>
+        <h1 id="temp"><sup>o</sup></h1>
+        <p class="cle">Degree Clecius</p>
+        <p class="data">Wind Speed :- <span id="ws">2.25</span></p>
+        <p class="data">Humidity :- <span id="hmdty">95</span></p>
+      </div>
+      <div class="image">
+        <img src="clouds-37009_640.png" alt="seen" />
+      </div>
+    </div>
+    <script src="demo.js"></script>
+  </body>
+</html>
